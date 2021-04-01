@@ -42,7 +42,243 @@ header nav ul li a:hover {
     color: #ffee00;
   }
 header nav ul li:last-child a {
+  margin-right: 0;body {
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+header {
+  border-bottom: 1px dotted rgb(255, 255, 255);
+  background-color: #000;
+  margin-bottom: 40px;
+}
+header:hover {
+    border: 1px dotted gold;
+  }
+header h1 {
+  color: rgb(252, 249, 249);
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+header h1:hover {
+    color: rgb(179, 255, 0);
+  }
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  color: rgb(253, 144, 144);
+  border-bottom: 1px dotted rgb(255, 255, 255);
+
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+header nav ul li a:hover {
+    color: #ffee00;
+  }
+header nav ul li:last-child a {
   margin-right: 0;
+}
+img#selfie{
+    width: 35%;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 50%;
+    border: dotted rgb(255, 255, 255);
+    border-bottom: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+  display: flex;
+  
+
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
+
+section div {
+    background-color: rgb(0, 0, 0);
+    width:100%;
+
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+}
+ h3 {
+     background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+  padding: 0px;
+  font-size: medium;
+  border: dotted white;
+  border-left: solid rgb(68, 68, 68);
+ text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+th {
+  border: dotted white;
+  border-top: none;
+  border-right: none;
+  margin-right: 10px;
+  font-size: small;
+  border-left: solid rgb(59, 59, 59);
+  text-align: center;
+  font-style: italic;
+}
+tr {
+    align-content: center;
+}
+td {
+    border: none
+    border-top: none;
+    border-right: none;
+    margin-right: 10px;
+    font-size: smaller;
+    border-left: solid black; 
+    text-align: center;
+  }
+section p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+article {
+    text-align: center;
+    align-content: center;
+  display: flex;
+  flex-direction: row;
+  border: dashed rgb(255, 0, 0);
+}
+article h3 {
+  color: rgb(51, 51, 51);
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+}
+article div {
+  display: flex;
+  flex-direction: row;
+}
+article table{
+    margin-left: auto;
+    margin-right: auto;
+}
+article a{
+    color: rgb(255, 0, 0);
+    border: none;
+}
+article tr{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: center;
+}
+article th{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    font-style: italic;
+}
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    text-align: center;
+    padding: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 0;
+  }
+
+
+  header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+  }
+
+
+  header nav {
+    margin-top: 8px;
+  }
+
+ 
+
+  /*about me*/
+  section {
+    display: flex;
+
+    color: rgb(8, 8, 8);
+    width: 100%;
+  }
+  section:hover {
+    border: dotted black;
+  }
+
+  section h3 {
+    padding: 0px;
+    font-size: medium;
+    
+  }
+  th {
+    border: dotted white;
+    margin-right: 10px;
+    font-size: small;
+    border-left: solid black;
+  }
+  
+
+
+
+  article {
+    display: flex;
+    flex-direction: row;
+  }
+  article h3 {
+    color: aliceblue;
+  }
+  article div {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 }
 img#selfie{
     width: 35%;
